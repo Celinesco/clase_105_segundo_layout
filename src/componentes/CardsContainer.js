@@ -33,7 +33,7 @@ const CardsContainer = () => {
 
     
     return (
-        <Container sx={{display:'flex', justifyContent:'space-evenly', pt:10}}>
+        <Container sx={{display:'flex', justifyContent:'space-evenly', flexWrap:'wrap', alignItems:'flex-end', pt:10}}>
             {infoTarjetas.map((plan)=>
                 <Tarjetas
                 name={plan.name}
